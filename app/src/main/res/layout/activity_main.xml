@@ -17,12 +17,28 @@
         android:textSize="30sp"
         android:textStyle="bold" />
 
-    <fragment
+<!--    <fragment-->
+<!--        android:id="@+id/frag_info"-->
+<!--        android:name="com.example.tugasfragpcx.InfoFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/title"-->
+<!--        tools:layout="@layout/fragment_info" />-->
+
+    <FrameLayout
         android:id="@+id/frag_info"
-        android:name="com.example.tugasfragpcx.InfoFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/title"
-        tools:layout="@layout/fragment_info" />
+        android:name="com.example.tugasfragpcx.InfoFragment"
+        tools:layout="@layout/fragment_info"
+        android:layout_below="@id/title"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_button"
+        android:layout_alignParentBottom="true"
+        android:text="Lihat Kelebihan"
+        android:background="@drawable/button_style_round"/>
 
 </RelativeLayout>
