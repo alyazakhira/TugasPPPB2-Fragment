@@ -12,6 +12,6 @@
         android:id="@+id/content"
         android:text="@string/content_static"
         android:layout_marginTop="30dp"
-        android:textSize="20sp"/>
+        android:textSize="19sp"/>
 
 </RelativeLayout>
